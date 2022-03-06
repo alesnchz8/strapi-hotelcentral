@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empresas",
+  "info": {
+    "name": "empresa",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rfc": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "nombre": {
+      "type": "text"
+    },
+    "direccion": {
+      "type": "text"
+    },
+    "colonia": {
+      "type": "text"
+    },
+    "ciudad": {
+      "type": "text"
+    },
+    "estado": {
+      "type": "text"
+    },
+    "cod_p": {
+      "type": "string"
+    }
+  }
+}

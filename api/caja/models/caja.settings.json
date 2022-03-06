@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cajas",
+  "info": {
+    "name": "caja"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "datetime"
+    },
+    "caja_final": {
+      "type": "decimal"
+    },
+    "caja_real": {
+      "type": "decimal"
+    },
+    "descuadre": {
+      "type": "decimal"
+    },
+    "observacion": {
+      "type": "text"
+    },
+    "user": {
+      "plugin": "admin",
+      "model": "user"
+    }
+  }
+}

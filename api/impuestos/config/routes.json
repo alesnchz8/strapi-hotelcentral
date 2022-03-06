@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/impuestos",
+      "handler": "impuestos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/impuestos/count",
+      "handler": "impuestos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/impuestos/:id",
+      "handler": "impuestos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/impuestos",
+      "handler": "impuestos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/impuestos/:id",
+      "handler": "impuestos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/impuestos/:id",
+      "handler": "impuestos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pagos",
+  "info": {
+    "name": "pago",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "f_pago": {
+      "type": "string"
+    }
+  }
+}

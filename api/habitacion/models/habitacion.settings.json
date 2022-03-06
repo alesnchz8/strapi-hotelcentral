@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "habitacions",
+  "info": {
+    "name": "habitacion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clima": {
+      "type": "integer"
+    },
+    "tv": {
+      "type": "integer"
+    }
+  }
+}

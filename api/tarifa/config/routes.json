@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tarifas",
+      "handler": "tarifa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarifas/count",
+      "handler": "tarifa.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarifas/:id",
+      "handler": "tarifa.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tarifas",
+      "handler": "tarifa.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tarifas/:id",
+      "handler": "tarifa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tarifas/:id",
+      "handler": "tarifa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
