@@ -15,6 +15,10 @@
     "categoria": {
       "type": "string",
       "required": true
+    },
+    "subcategorias": {
+      "via": "categoria",
+      "collection": "subcategoria"
     }
   }
 }

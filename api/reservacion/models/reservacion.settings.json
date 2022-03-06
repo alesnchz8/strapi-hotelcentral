@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservacions",
+  "info": {
+    "name": "reservacion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "date"
+    },
+    "fecha_llegada": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_salida": {
+      "type": "date"
+    },
+    "hora_llegada": {
+      "type": "time",
+      "required": true
+    },
+    "anticipo": {
+      "type": "decimal"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "confirma_noches": {
+      "type": "integer",
+      "required": true
+    },
+    "observaciones": {
+      "type": "text",
+      "required": true
+    },
+    "fecha_cancelo": {
+      "type": "datetime"
+    },
+    "user_cancelo": {
+      "type": "integer"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "reservacions"
+    },
+    "pagos": {
+      "collection": "pago",
+      "via": "reservacion"
+    },
+    "cliente": {
+      "model": "cliente",
+      "via": "reservacions"
+    }
+  }
+}

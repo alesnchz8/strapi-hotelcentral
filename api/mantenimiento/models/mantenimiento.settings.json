@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mantenimientos",
+  "info": {
+    "name": "mantenimiento",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "f_inicio": {
+      "type": "date",
+      "required": true
+    },
+    "f_fin": {
+      "type": "date",
+      "required": true
+    },
+    "motivo": {
+      "type": "text",
+      "required": true
+    },
+    "estado": {
+      "type": "integer",
+      "required": true
+    },
+    "habitacion": {
+      "via": "mantenimientos",
+      "model": "habitacion"
+    },
+    "costo": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

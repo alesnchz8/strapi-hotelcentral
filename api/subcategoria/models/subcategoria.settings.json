@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "pagos",
+  "collectionName": "subcategorias",
   "info": {
-    "name": "pago",
-    "description": ""
+    "name": "subcategoria"
   },
   "options": {
     "increments": true,
@@ -12,12 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "f_pago": {
+    "subcategoria": {
       "type": "string"
     },
-    "reservacion": {
-      "via": "pagos",
-      "model": "reservacion"
+    "categoria": {
+      "model": "categoria",
+      "via": "subcategorias"
     }
   }
 }
