@@ -58,14 +58,6 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
-    },
-    "cajas": {
-      "via": "users_permissions_user",
-      "collection": "caja"
-    },
-    "reservacions": {
-      "via": "users_permissions_user",
-      "collection": "reservacion"
     }
   }
 }

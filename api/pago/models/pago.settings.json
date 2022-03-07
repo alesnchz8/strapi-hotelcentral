@@ -14,10 +14,6 @@
   "attributes": {
     "f_pago": {
       "type": "string"
-    },
-    "reservacion": {
-      "via": "pagos",
-      "model": "reservacion"
     }
   }
 }

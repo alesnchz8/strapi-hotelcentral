@@ -23,10 +23,6 @@
     "no_personas": {
       "type": "integer",
       "required": true
-    },
-    "habitacions": {
-      "via": "tarifas",
-      "collection": "habitacion"
     }
   }
 }

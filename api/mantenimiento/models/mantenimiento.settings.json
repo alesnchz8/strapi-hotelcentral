@@ -28,13 +28,12 @@
       "type": "integer",
       "required": true
     },
-    "habitacion": {
-      "via": "mantenimientos",
-      "model": "habitacion"
-    },
     "costo": {
       "type": "decimal",
       "required": true
+    },
+    "habitacion": {
+      "model": "habitacion"
     }
   }
 }

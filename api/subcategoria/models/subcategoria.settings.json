@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "subcategorias",
   "info": {
-    "name": "subcategoria"
+    "name": "subcategoria",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,8 +16,7 @@
       "type": "string"
     },
     "categoria": {
-      "model": "categoria",
-      "via": "subcategorias"
+      "model": "categoria"
     }
   }
 }

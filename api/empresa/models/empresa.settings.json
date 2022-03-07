@@ -34,10 +34,6 @@
     },
     "cod_p": {
       "type": "string"
-    },
-    "cliente": {
-      "via": "empresas",
-      "model": "cliente"
     }
   }
 }

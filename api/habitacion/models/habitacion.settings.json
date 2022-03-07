@@ -17,15 +17,6 @@
     },
     "tv": {
       "type": "integer"
-    },
-    "mantenimientos": {
-      "via": "habitacion",
-      "collection": "mantenimiento"
-    },
-    "tarifas": {
-      "collection": "tarifa",
-      "via": "habitacions",
-      "dominant": true
     }
   }
 }

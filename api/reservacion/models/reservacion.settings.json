@@ -48,16 +48,13 @@
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "reservacions"
+      "model": "user"
     },
-    "pagos": {
-      "collection": "pago",
-      "via": "reservacion"
+    "pago": {
+      "model": "pago"
     },
     "cliente": {
-      "model": "cliente",
-      "via": "reservacions"
+      "model": "cliente"
     }
   }
 }
