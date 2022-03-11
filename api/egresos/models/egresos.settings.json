@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "egresos",
+  "info": {
+    "name": "egresos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "datetime"
+    },
+    "importe": {
+      "type": "decimal"
+    },
+    "facturado": {
+      "type": "integer"
+    },
+    "subtotal": {
+      "type": "decimal"
+    },
+    "iva": {
+      "type": "decimal"
+    },
+    "concepto": {
+      "type": "text"
+    },
+    "p_caja": {
+      "type": "integer",
+      "default": 0
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "pago": {
+      "model": "pago"
+    },
+    "subcategorias": {
+      "collection": "subcategoria"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hab_tarifas",
+  "info": {
+    "name": "hab_tarifa"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "habitacion": {
+      "model": "habitacion"
+    },
+    "tarifa": {
+      "model": "tarifa"
+    }
+  }
+}

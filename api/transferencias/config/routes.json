@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/transferencias",
+      "handler": "transferencias.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/transferencias/count",
+      "handler": "transferencias.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/transferencias/:id",
+      "handler": "transferencias.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/transferencias",
+      "handler": "transferencias.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/transferencias/:id",
+      "handler": "transferencias.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/transferencias/:id",
+      "handler": "transferencias.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

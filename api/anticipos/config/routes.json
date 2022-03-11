@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anticipos",
+      "handler": "anticipos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anticipos/count",
+      "handler": "anticipos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anticipos/:id",
+      "handler": "anticipos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/anticipos",
+      "handler": "anticipos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anticipos/:id",
+      "handler": "anticipos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anticipos/:id",
+      "handler": "anticipos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

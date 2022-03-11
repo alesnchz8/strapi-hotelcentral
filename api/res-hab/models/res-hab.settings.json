@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "res_habs",
+  "info": {
+    "name": "res_hab",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reservacion": {
+      "model": "reservacion"
+    },
+    "habitacion": {
+      "model": "habitacion"
+    },
+    "tarifa": {
+      "model": "tarifa"
+    }
+  }
+}

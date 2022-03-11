@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cotizacions",
+      "handler": "cotizacion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cotizacions/count",
+      "handler": "cotizacion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cotizacions/:id",
+      "handler": "cotizacion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cotizacions",
+      "handler": "cotizacion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cotizacions/:id",
+      "handler": "cotizacion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cotizacions/:id",
+      "handler": "cotizacion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

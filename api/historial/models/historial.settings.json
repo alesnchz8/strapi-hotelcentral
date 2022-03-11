@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "historials",
+  "info": {
+    "name": "historial"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha_hosp": {
+      "type": "date"
+    },
+    "hab": {
+      "type": "string"
+    },
+    "tipo_hab": {
+      "type": "string"
+    },
+    "tarifa": {
+      "type": "decimal"
+    },
+    "pagado": {
+      "type": "decimal"
+    },
+    "fecha_pago": {
+      "type": "datetime"
+    },
+    "forma_pago": {
+      "type": "string"
+    },
+    "anticipo": {
+      "type": "decimal"
+    },
+    "p_caja": {
+      "type": "integer",
+      "default": 0
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "registro": {
+      "model": "registro"
+    }
+  }
+}

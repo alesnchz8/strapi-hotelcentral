@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cot_habs",
+  "info": {
+    "name": "cot_hab",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cotizacion": {
+      "model": "cotizacion"
+    },
+    "hab_tarifa": {
+      "model": "hab-tarifa"
+    },
+    "habitacion": {
+      "model": "habitacion"
+    }
+  }
+}

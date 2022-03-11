@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transferencias",
+  "info": {
+    "name": "transferencias",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha_programada": {
+      "type": "date"
+    },
+    "monto_depositar": {
+      "type": "decimal"
+    },
+    "folio": {
+      "type": "biginteger"
+    },
+    "fecha_real": {
+      "type": "date"
+    },
+    "monto_trans": {
+      "type": "decimal"
+    },
+    "anticipo": {
+      "type": "integer"
+    },
+    "reservacion": {
+      "model": "reservacion"
+    }
+  }
+}

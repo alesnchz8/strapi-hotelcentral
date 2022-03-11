@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cot-habs",
+      "handler": "cot-hab.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cot-habs/count",
+      "handler": "cot-hab.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cot-habs/:id",
+      "handler": "cot-hab.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cot-habs",
+      "handler": "cot-hab.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cot-habs/:id",
+      "handler": "cot-hab.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cot-habs/:id",
+      "handler": "cot-hab.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

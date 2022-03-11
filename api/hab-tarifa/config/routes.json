@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hab-tarifas",
+      "handler": "hab-tarifa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hab-tarifas/count",
+      "handler": "hab-tarifa.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hab-tarifas/:id",
+      "handler": "hab-tarifa.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hab-tarifas",
+      "handler": "hab-tarifa.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hab-tarifas/:id",
+      "handler": "hab-tarifa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hab-tarifas/:id",
+      "handler": "hab-tarifa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

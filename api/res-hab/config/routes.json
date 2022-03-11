@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/res-habs",
+      "handler": "res-hab.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/res-habs/count",
+      "handler": "res-hab.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/res-habs/:id",
+      "handler": "res-hab.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/res-habs",
+      "handler": "res-hab.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/res-habs/:id",
+      "handler": "res-hab.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/res-habs/:id",
+      "handler": "res-hab.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

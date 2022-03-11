@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cotizacions",
+  "info": {
+    "name": "cotizacion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "date"
+    },
+    "observaciones": {
+      "type": "text"
+    },
+    "no_noches": {
+      "type": "integer"
+    },
+    "fecha_llegada": {
+      "type": "date"
+    },
+    "fecha_salida": {
+      "type": "date"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "cliente": {
+      "model": "cliente"
+    }
+  }
+}

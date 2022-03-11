@@ -34,6 +34,10 @@
     },
     "habitacion": {
       "model": "habitacion"
+    },
+    "categoria": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "anticipos",
+  "info": {
+    "name": "anticipos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "datetime"
+    },
+    "cantidad": {
+      "type": "decimal"
+    },
+    "p_caja": {
+      "type": "integer",
+      "default": 0
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "reservacion": {
+      "model": "reservacion"
+    },
+    "pago": {
+      "model": "pago"
+    }
+  }
+}

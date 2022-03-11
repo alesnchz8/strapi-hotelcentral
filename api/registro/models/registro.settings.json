@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "reservacions",
+  "collectionName": "registros",
   "info": {
-    "name": "reservacion",
+    "name": "registro",
     "description": ""
   },
   "options": {
@@ -15,43 +15,48 @@
     "fecha": {
       "type": "date"
     },
-    "fecha_llegada": {
-      "type": "date",
-      "required": true
+    "hora_llegada": {
+      "type": "time"
     },
     "fecha_salida": {
       "type": "date"
     },
-    "hora_llegada": {
-      "type": "time",
-      "required": true
+    "hora_salida": {
+      "type": "time"
     },
-    "anticipo": {
-      "type": "decimal"
-    },
-    "confirma_noches": {
-      "type": "integer",
-      "required": true
+    "no_per": {
+      "type": "integer"
     },
     "observaciones": {
-      "type": "text",
-      "required": false
+      "type": "text"
     },
-    "fecha_cancelo": {
-      "type": "datetime"
+    "confirma_noches": {
+      "type": "integer"
     },
-    "user_cancelo": {
+    "estado": {
+      "type": "integer"
+    },
+    "aut_entrada": {
+      "type": "integer"
+    },
+    "aut_salida": {
       "type": "integer"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user"
     },
-    "pago": {
-      "model": "pago"
-    },
     "cliente": {
       "model": "cliente"
+    },
+    "tarifa": {
+      "model": "tarifa"
+    },
+    "habitacion": {
+      "model": "habitacion"
+    },
+    "reservacion": {
+      "model": "reservacion"
     }
   }
 }

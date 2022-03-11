@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cambios",
+  "info": {
+    "name": "cambios",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "date"
+    },
+    "hab_de": {
+      "type": "string"
+    },
+    "hab_a": {
+      "type": "string"
+    },
+    "tipo_hab_nueva": {
+      "type": "text"
+    },
+    "registro": {
+      "model": "registro"
+    }
+  }
+}
