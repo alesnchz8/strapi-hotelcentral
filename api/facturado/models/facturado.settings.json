@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "facturados",
+  "info": {
+    "name": "facturado"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_factura": {
+      "type": "biginteger",
+      "required": true
+    },
+    "fech_factura": {
+      "type": "date"
+    },
+    "cantidad_fact": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
