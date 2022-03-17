@@ -13,13 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "cotizacion": {
-      "model": "cotizacion"
+      "model": "cotizacion",
+      "via": "cot_habs"
     },
     "hab_tarifa": {
+      "via": "cot_habs",
       "model": "hab-tarifa"
     },
     "habitacion": {
-      "model": "habitacion"
+      "model": "habitacion",
+      "via": "cot_habs"
     }
   }
 }

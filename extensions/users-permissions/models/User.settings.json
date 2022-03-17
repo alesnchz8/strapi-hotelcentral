@@ -58,6 +58,34 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "anticipos": {
+      "via": "users_permissions_user",
+      "collection": "anticipos"
+    },
+    "cajas": {
+      "via": "users_permissions_user",
+      "collection": "caja"
+    },
+    "cotizacions": {
+      "via": "users_permissions_user",
+      "collection": "cotizacion"
+    },
+    "egresos": {
+      "via": "users_permissions_user",
+      "collection": "egresos"
+    },
+    "historials": {
+      "via": "users_permissions_user",
+      "collection": "historial"
+    },
+    "registros": {
+      "via": "users_permissions_user",
+      "collection": "registro"
+    },
+    "reservacions": {
+      "via": "users_permissions_user",
+      "collection": "reservacion"
     }
   }
 }

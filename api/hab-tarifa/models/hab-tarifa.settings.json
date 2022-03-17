@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "hab_tarifas",
   "info": {
-    "name": "hab_tarifa"
+    "name": "hab_tarifa",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,10 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "habitacion": {
-      "model": "habitacion"
+      "model": "habitacion",
+      "via": "hab_tarifas"
     },
     "tarifa": {
-      "model": "tarifa"
+      "model": "tarifa",
+      "via": "hab_tarifas"
+    },
+    "cot_habs": {
+      "via": "hab_tarifa",
+      "collection": "cot-hab"
     }
   }
 }

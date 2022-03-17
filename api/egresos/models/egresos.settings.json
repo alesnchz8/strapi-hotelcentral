@@ -36,13 +36,16 @@
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "egresos"
     },
     "pago": {
-      "model": "pago"
+      "model": "pago",
+      "via": "egresos"
     },
-    "subcategorias": {
-      "collection": "subcategoria"
+    "subcategoria": {
+      "via": "egresos",
+      "model": "subcategoria"
     }
   }
 }

@@ -31,7 +31,8 @@
       "type": "integer"
     },
     "reservacion": {
-      "model": "reservacion"
+      "model": "reservacion",
+      "via": "transferencias"
     }
   }
 }

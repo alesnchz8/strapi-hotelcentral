@@ -16,7 +16,12 @@
       "type": "string"
     },
     "categoria": {
-      "model": "categoria"
+      "model": "categoria",
+      "via": "subcategorias"
+    },
+    "egresos": {
+      "via": "subcategoria",
+      "collection": "egresos"
     }
   }
 }

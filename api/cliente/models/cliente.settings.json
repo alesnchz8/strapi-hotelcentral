@@ -31,7 +31,20 @@
       "type": "email"
     },
     "empresa": {
-      "model": "empresa"
+      "model": "empresa",
+      "via": "clientes"
+    },
+    "cotizacions": {
+      "via": "cliente",
+      "collection": "cotizacion"
+    },
+    "registros": {
+      "via": "cliente",
+      "collection": "registro"
+    },
+    "reservacions": {
+      "via": "cliente",
+      "collection": "reservacion"
     }
   }
 }

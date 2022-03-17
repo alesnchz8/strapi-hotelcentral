@@ -21,6 +21,10 @@
     "cantidad_fact": {
       "type": "decimal",
       "required": true
+    },
+    "historials": {
+      "via": "facturado",
+      "collection": "historial"
     }
   }
 }

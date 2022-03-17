@@ -17,6 +17,26 @@
     },
     "tv": {
       "type": "integer"
+    },
+    "mantenimientos": {
+      "via": "habitacion",
+      "collection": "mantenimiento"
+    },
+    "registros": {
+      "via": "habitacion",
+      "collection": "registro"
+    },
+    "cot_habs": {
+      "via": "habitacion",
+      "collection": "cot-hab"
+    },
+    "hab_tarifas": {
+      "via": "habitacion",
+      "collection": "hab-tarifa"
+    },
+    "res_habs": {
+      "via": "habitacion",
+      "collection": "res-hab"
     }
   }
 }

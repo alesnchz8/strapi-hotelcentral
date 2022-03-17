@@ -13,13 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "reservacion": {
-      "model": "reservacion"
+      "model": "reservacion",
+      "via": "res_habs"
     },
     "habitacion": {
-      "model": "habitacion"
+      "model": "habitacion",
+      "via": "res_habs"
     },
     "tarifa": {
-      "model": "tarifa"
+      "model": "tarifa",
+      "via": "res_habs"
     }
   }
 }

@@ -42,13 +42,16 @@
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "historials"
     },
     "registro": {
+      "via": "historials",
       "model": "registro"
     },
     "facturado": {
-      "model": "facturado"
+      "model": "facturado",
+      "via": "historials"
     }
   }
 }

@@ -25,6 +25,7 @@
       "type": "text"
     },
     "registro": {
+      "via": "cambios",
       "model": "registro"
     }
   }

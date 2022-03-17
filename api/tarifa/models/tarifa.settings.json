@@ -23,6 +23,18 @@
     "no_personas": {
       "type": "integer",
       "required": true
+    },
+    "registros": {
+      "via": "tarifa",
+      "collection": "registro"
+    },
+    "hab_tarifas": {
+      "via": "tarifa",
+      "collection": "hab-tarifa"
+    },
+    "res_habs": {
+      "via": "tarifa",
+      "collection": "res-hab"
     }
   }
 }

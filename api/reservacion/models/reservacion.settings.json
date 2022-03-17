@@ -45,16 +45,35 @@
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "reservacions"
     },
     "pago": {
-      "model": "pago"
+      "model": "pago",
+      "via": "reservacions"
     },
     "cliente": {
-      "model": "cliente"
+      "model": "cliente",
+      "via": "reservacions"
     },
     "est": {
       "type": "string"
+    },
+    "anticipos": {
+      "via": "reservacion",
+      "collection": "anticipos"
+    },
+    "registros": {
+      "via": "reservacion",
+      "collection": "registro"
+    },
+    "transferencias": {
+      "via": "reservacion",
+      "collection": "transferencias"
+    },
+    "res_habs": {
+      "via": "reservacion",
+      "collection": "res-hab"
     }
   }
 }

@@ -44,19 +44,32 @@
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "registros"
     },
     "cliente": {
-      "model": "cliente"
+      "model": "cliente",
+      "via": "registros"
     },
     "tarifa": {
-      "model": "tarifa"
+      "model": "tarifa",
+      "via": "registros"
     },
     "habitacion": {
-      "model": "habitacion"
+      "model": "habitacion",
+      "via": "registros"
     },
     "reservacion": {
+      "via": "registros",
       "model": "reservacion"
+    },
+    "cambios": {
+      "via": "registro",
+      "collection": "cambios"
+    },
+    "historials": {
+      "via": "registro",
+      "collection": "historial"
     }
   }
 }

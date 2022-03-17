@@ -34,6 +34,10 @@
     },
     "cod_p": {
       "type": "string"
+    },
+    "clientes": {
+      "via": "empresa",
+      "collection": "cliente"
     }
   }
 }
